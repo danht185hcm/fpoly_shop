@@ -1,0 +1,30 @@
+@baseUrl = http://localhost:3000/api
+@resourceName = products
+
+# @name getAll
+GET {{baseUrl}}/{{resourceName}}
+
+###
+
+# @name getOneById
+GET {{baseUrl}}/{{resourceName}}/1
+
+###
+
+# @name filterProducts
+GET {{baseUrl}}/{{resourceName}}?q=iphone
+
+###
+
+# @name paninations
+GET {{baseUrl}}/{{resourceName}}?_page=1&_limit=3
+
+###
+
+# @name addProduct
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+  "name": "Iphone"
+}

@@ -1,0 +1,25 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Điện thoại"
+    }
+  ],
+  "products": [
+    {
+      "name": "Iphone",
+      "originalPrice": 100000,
+      "isFreeShip": false,
+      "isPromotion": false,
+      "promotionPercent": 10,
+      "salePrice": 100000,
+      "shortDescription": "",
+      "description": "",
+      "thumbnailUrl": "",
+      "color": "",
+      "createdAt": 1642402831722,
+      "updatedAt": 1642402831722,
+      "id": 1
+    }
+  ]
+}

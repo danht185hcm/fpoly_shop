@@ -1,0 +1,32 @@
+{
+  "name": "fpoly_shop",
+  "version": "1.0.0",
+  "description": "Assignment môn web của FPT Polytechnic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danht185hcm/fpoly_shop.git"
+  },
+  "keywords": [
+    "vanilla",
+    "json-server"
+  ],
+  "author": "Danh Trần",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danht185hcm/fpoly_shop/issues"
+  },
+  "homepage": "https://github.com/danht185hcm/fpoly_shop#readme",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "query-string": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
